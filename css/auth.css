@@ -1,0 +1,116 @@
+/* LUMINAS HAIR & BEAUTY Auth Pages Styling */
+
+/* Base Styles */
+body {
+    background-color: #f8f9fa;
+    font-family: 'Poppins', sans-serif;
+    color: #333;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 40px 0;
+}
+
+.container {
+    max-width: 1200px;
+}
+
+/* Card Styles */
+.auth-card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    margin-bottom: 30px;
+    transition: all 0.3s ease;
+}
+
+.auth-card:hover {
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+/* Salon Branding */
+.salon-name {
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    font-size: 2.5rem;
+    color: #9c7c38;
+    margin-bottom: 0;
+    letter-spacing: 2px;
+}
+
+.salon-tagline {
+    font-size: 0.9rem;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #6c757d;
+    margin-top: 0;
+}
+
+/* Form Elements */
+.form-label {
+    font-weight: 500;
+    color: #495057;
+}
+
+.form-control {
+    border-radius: 8px;
+    padding: 10px 15px;
+    border: 1px solid #ced4da;
+    transition: all 0.3s ease;
+}
+
+.form-control:focus {
+    border-color: #9c7c38;
+    box-shadow: 0 0 0 0.25rem rgba(156, 124, 56, 0.25);
+}
+
+.form-check-input:checked {
+    background-color: #9c7c38;
+    border-color: #9c7c38;
+}
+
+/* Buttons */
+.btn-primary {
+    background-color: #9c7c38;
+    border-color: #9c7c38;
+    padding: 10px 20px;
+    font-weight: 500;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
+
+.btn-primary:hover, .btn-primary:focus {
+    background-color: #866a30;
+    border-color: #866a30;
+}
+
+/* Links */
+a {
+    color: #9c7c38;
+    transition: all 0.2s ease;
+}
+
+a:hover, a:focus {
+    color: #866a30;
+}
+
+/* Alerts */
+.alert {
+    border-radius: 8px;
+    padding: 12px 15px;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 767.98px) {
+    .auth-card {
+        padding: 25px;
+    }
+    
+    .salon-name {
+        font-size: 2rem;
+    }
+}
+
+/* Font Import */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Poppins:wght@300;400;500;600&display=swap');
