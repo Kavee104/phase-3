@@ -87,5 +87,5 @@ This project is licensed under the **MIT License** – see the [LICENSE](LICENSE
 ## 👤 Author
 
 Developed by **Kaveesha**  
-_Contact details or links can go here (optional)_
+_kaveegeegnarachchi@gmail.com_
 
